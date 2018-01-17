@@ -12,6 +12,12 @@
 		60991E011FFA28CE00D92FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60991DFF1FFA28CE00D92FF3 /* Main.storyboard */; };
 		60991E031FFA28D000D92FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60991E021FFA28D000D92FF3 /* Assets.xcassets */; };
 		60991E061FFA28D100D92FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60991E041FFA28D100D92FF3 /* LaunchScreen.storyboard */; };
+		60F7D6C31FFACE4800D97573 /* AnimatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F7D6C21FFACE4700D97573 /* AnimatingImageView.swift */; };
+		60F7D6C51FFACF2E00D97573 /* AnimatinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F7D6C41FFACF2E00D97573 /* AnimatinButton.swift */; };
+		60F7D6E21FFAEC1500D97573 /* emoji2.png in Resources */ = {isa = PBXBuildFile; fileRef = 60F7D6DF1FFAEC1300D97573 /* emoji2.png */; };
+		60F7D6E31FFAEC1500D97573 /* emoji1.png in Resources */ = {isa = PBXBuildFile; fileRef = 60F7D6E01FFAEC1400D97573 /* emoji1.png */; };
+		60F7D6E41FFAEC1500D97573 /* emoji0.png in Resources */ = {isa = PBXBuildFile; fileRef = 60F7D6E11FFAEC1400D97573 /* emoji0.png */; };
+		60F7D6E81FFAF7E800D97573 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F7D6E71FFAF7E800D97573 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		60991E021FFA28D000D92FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60991E051FFA28D100D92FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60991E071FFA28D200D92FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F7D6C21FFACE4700D97573 /* AnimatingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingImageView.swift; sourceTree = "<group>"; };
+		60F7D6C41FFACF2E00D97573 /* AnimatinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatinButton.swift; sourceTree = "<group>"; };
+		60F7D6DF1FFAEC1300D97573 /* emoji2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji2.png; sourceTree = "<group>"; };
+		60F7D6E01FFAEC1400D97573 /* emoji1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji1.png; sourceTree = "<group>"; };
+		60F7D6E11FFAEC1400D97573 /* emoji0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji0.png; sourceTree = "<group>"; };
+		60F7D6E71FFAF7E800D97573 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		60991DEF1FFA28C700D92FF3 = {
 			isa = PBXGroup;
 			children = (
+				60F7D6E71FFAF7E800D97573 /* UIButtonExtension.swift */,
 				60991DFA1FFA28CB00D92FF3 /* UIProject */,
 				60991DF91FFA28CA00D92FF3 /* Products */,
 			);
@@ -54,14 +67,27 @@
 		60991DFA1FFA28CB00D92FF3 /* UIProject */ = {
 			isa = PBXGroup;
 			children = (
+				60F7D6C61FFAD6A000D97573 /* Images */,
 				60991DFB1FFA28CC00D92FF3 /* AppDelegate.swift */,
 				60991DFD1FFA28CC00D92FF3 /* ViewController.swift */,
 				60991DFF1FFA28CE00D92FF3 /* Main.storyboard */,
+				60F7D6C21FFACE4700D97573 /* AnimatingImageView.swift */,
+				60F7D6C41FFACF2E00D97573 /* AnimatinButton.swift */,
 				60991E021FFA28D000D92FF3 /* Assets.xcassets */,
 				60991E041FFA28D100D92FF3 /* LaunchScreen.storyboard */,
 				60991E071FFA28D200D92FF3 /* Info.plist */,
 			);
 			path = UIProject;
+			sourceTree = "<group>";
+		};
+		60F7D6C61FFAD6A000D97573 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60F7D6E11FFAEC1400D97573 /* emoji0.png */,
+				60F7D6E01FFAEC1400D97573 /* emoji1.png */,
+				60F7D6DF1FFAEC1300D97573 /* emoji2.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +151,10 @@
 			files = (
 				60991E061FFA28D100D92FF3 /* LaunchScreen.storyboard in Resources */,
 				60991E031FFA28D000D92FF3 /* Assets.xcassets in Resources */,
+				60F7D6E31FFAEC1500D97573 /* emoji1.png in Resources */,
 				60991E011FFA28CE00D92FF3 /* Main.storyboard in Resources */,
+				60F7D6E21FFAEC1500D97573 /* emoji2.png in Resources */,
+				60F7D6E41FFAEC1500D97573 /* emoji0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F7D6C51FFACF2E00D97573 /* AnimatinButton.swift in Sources */,
+				60F7D6E81FFAF7E800D97573 /* UIButtonExtension.swift in Sources */,
+				60F7D6C31FFACE4800D97573 /* AnimatingImageView.swift in Sources */,
 				60991DFE1FFA28CC00D92FF3 /* ViewController.swift in Sources */,
 				60991DFC1FFA28CC00D92FF3 /* AppDelegate.swift in Sources */,
 			);

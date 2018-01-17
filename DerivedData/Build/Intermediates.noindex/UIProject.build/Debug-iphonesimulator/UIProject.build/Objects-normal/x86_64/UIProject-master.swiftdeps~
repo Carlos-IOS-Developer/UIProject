@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "884d946af67cc4526489d7b5c675d767"
+build_time: [1514878130, 116210000]
+inputs:
+  "/Users/carlosreda/Desktop/Portfolio/UIProject/UIProject/AnimatinButton.swift": [1514878126, 0]
+  "/Users/carlosreda/Desktop/Portfolio/UIProject/UIButtonExtension.swift": [1514848587, 0]
+  "/Users/carlosreda/Desktop/Portfolio/UIProject/UIProject/AnimatingImageView.swift": [1514847060, 0]
+  "/Users/carlosreda/Desktop/Portfolio/UIProject/UIProject/ViewController.swift": [1514847124, 0]
+  "/Users/carlosreda/Desktop/Portfolio/UIProject/UIProject/AppDelegate.swift": [1514795339, 0]
